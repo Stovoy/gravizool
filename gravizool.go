@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-const gravizoBegin string = "(http://g.gravizo.com/svg?"
+const gravizoBegin string = "(https://g.gravizo.com/svg?"
 
 var encoder = strings.NewReplacer(";", "%3B", " ", "%20", "\n", "%0A", "@", "%40",
 	"(", "%28", ")", "%29", "*", "%2A", "\\", "%5C")
